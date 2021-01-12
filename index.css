@@ -1,0 +1,15 @@
+:root {
+  --mainLight: #e8eddf;
+  --mainDark: #333533;
+  --mainMid: #f5cb5c;
+}
+
+#img-viewer {
+  border: 2vw;
+}
+#leftButton {
+  left: 0;
+}
+#rightButton {
+  right: 0;
+}
