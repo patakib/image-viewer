@@ -1,15 +1,38 @@
 :root {
-  --mainLight: #e8eddf;
+  --mainLight: #dcdcdd;
   --mainDark: #333533;
-  --mainMid: #f5cb5c;
+  --mainMid: #4c4c68;
 }
-
+body {
+  background-color: var(--mainLight);
+}
+h1 {
+  color: var(--mainMid);
+  font-size: 8vh;
+  text-align: center;
+  font-family: 'Allan', cursive;
+  padding-top: 3vh;
+}
 #img-viewer {
-  border: 2vw;
+  background: url("img/bg1.jpg") center/cover fixed no-repeat;
+  min-height: 60vh;
+  border: 1vw solid var(--mainDark);
+  border-radius: 2vw;
+  margin-top: 10vh;
 }
 #leftButton {
-  left: 0;
+  position: absolute;
+  left: 2vw;
+  top: 50%;
+  font-size: 6vh;
+  transform: translate(-50%, -50%);
+  color: var(--mainDark);
 }
 #rightButton {
-  right: 0;
+  position: absolute;
+  right: 2vw;
+  top: 50%;
+  font-size: 6vh;
+  transform: translate(50%, -50%);
+  color: var(--mainDark);
 }
