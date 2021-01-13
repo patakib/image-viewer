@@ -5,4 +5,4 @@ This simple project provides an window, where the user can switch between images
 <br>
 Here is the demo video:
 <br>
-<img src="image-viewer.gif">
+<img src="image-viewer-demo.gif">
